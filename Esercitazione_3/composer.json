@@ -1,0 +1,17 @@
+{
+    "name": "esercitazione_1/esercitazione_1",
+    "description": "esercitazione",
+    "autoload": {
+        "psr-4": {
+            "Esercitazione1\\Esercitazione1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "io eheh"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
