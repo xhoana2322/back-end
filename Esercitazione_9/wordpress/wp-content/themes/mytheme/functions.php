@@ -2,6 +2,7 @@
 
 function load_bootstrap() {
     wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+    wp_enqueue_style('custom-css', get_template_directory_uri() . '/assets/css/custom_css.css');
 }
 
 function load_bootstrap_scripts() {
