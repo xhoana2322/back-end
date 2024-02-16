@@ -17,7 +17,7 @@
             <img src="<?php echo get_template_directory_uri() . '/assets/img/micio_eheh.jpg'; ?>" alt="">
         </div>
         <div class="col-9">
-            <div><? the_title() ?></div>
+            <h1>ciao</h1>
         </div>
     </div>
 
